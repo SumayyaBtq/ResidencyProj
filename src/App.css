@@ -1,0 +1,32 @@
+.active {
+    color: blue !important;
+    font-weight: bold;
+}
+
+
+.react-datepicker-wrapper {
+    display: block !important;
+    padding: 0;
+    border: 0;
+}
+
+.glass {
+    background: linear-gradient(to right bottom, rgba(222, 222, 222, 0.7), rgba(255,255,255,0.3), rgba(222, 222, 222, 0.7));
+    backdrop-filter: blur(0.1rem);
+  }
+
+  .loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    z-index: 1000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .loader-image {
+    width: 15%;
+  }
